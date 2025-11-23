@@ -8,7 +8,7 @@ const app = express();
 app.use(bodyParser.json());
 app.use(cors()); // ✅ Allow frontend requests
 
-const API_KEY = "nU3R1QVLTKq0Y2CLt1GHHA"; // ✅ New whitelisted API key
+const API_KEY = "j-vf6jSIS1euBCikzPEFkQ"; // ✅ New whitelisted API key
 
 // Helper function to call Premiumy CSV API
 async function callCSVMethod(method, params = {}) {
